@@ -1,0 +1,21 @@
+.container {
+  height: 50px;
+  border: 1px solid lightgrey;
+  margin: 16px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.active-progress {
+  height: 100%;
+}
+
+.label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
